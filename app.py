@@ -3,12 +3,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def hello():
-	return "tio Teles comeu seu cu"
-@app.route("/test", methods=["GET"])
-def test():
-	return "pika grossa"
+	return "<h1>tio Teles comeu seu cu</h1>"
 
 
 if __name__ == "__main__":
