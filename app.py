@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def hello():
-	return "comeram meu cu"
+	return "tio Teles comeu seu cu"
 @app.route("/test", methods=["GET"])
 def test():
 	return "pika grossa"
