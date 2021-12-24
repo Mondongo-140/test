@@ -1,1 +1,2 @@
-print("jshshsh")
+import os
+os.system("ls")
